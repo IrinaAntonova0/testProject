@@ -65,4 +65,8 @@ public class Main {
         System.out.println("Check string equals: " +  (str2.equals(str3)));
 
     }//<--up to here
+
+    private static String fullName(String surName, String familyName){
+        return surName + " " + familyName;
+    }
 }
